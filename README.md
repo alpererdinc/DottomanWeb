@@ -1,162 +1,117 @@
-# Dotto•Man Website
+# Dotto•Man
 
-Official website for **Dotto•Man**, an original animation and storytelling project about living punctuation marks, ink beings, language, literature, and visual narrative.
+**Dotto•Man** is an original animation and storytelling project created by **Alper Erdinç**.
 
-This website is designed as the main online home of the Dotto•Man universe. It includes project information, character descriptions, gallery content, episode links, social media links, and future updates.
+This website is the official online home of the Dotto•Man universe. It introduces the project, its characters, its visual identity, and the creative world behind the story. This repository serves as a record of the website’s development, presentation, and ongoing growth.
 
 ---
 
 ## About Dotto•Man
 
-**Dotto•Man** is an original animation universe set in a world where punctuation marks exist as living conceptual beings.
+**Dotto•Man** is set in a world where punctuation marks are not only symbols, but living conceptual beings.
 
-The project follows characters inspired by punctuation marks:
+The project is built around the idea that punctuation carries more than grammatical function. Punctuation can represent rhythm, silence, interruption, finality, curiosity, emotion, and expression. In this universe, each punctuation mark becomes a character with its own personality, conflict, and symbolic meaning.
 
-- **Dotto / Nokta**
-- **Quinna / Soru**
-- **Rex / Ünlem**
-- **Silas Paus / Virgül**
+Dotto•Man combines animation, storytelling, humor, drama, literature, language, character design, and visual worldbuilding. It is both a fictional universe and a personal creative tribute to writing, punctuation, Turkish language, literature, and the act of storytelling itself.
 
-Dotto•Man combines humor, drama, language, literature, animation, and an amateur creative spirit. It is both a fictional story world and a small tribute to punctuation, writing, storytelling, and Turkish literary culture.
+The project keeps an amateur spirit at its core while continuing to grow through new episodes, drawings, character ideas, visual experiments, and worldbuilding.
 
 ---
 
-## Website Features
+## About the Website
 
-- Dark ink-inspired visual design
-- Responsive layout
-- Main top navigation
-- Secondary scroll-based navigation
-- Gallery carousel
-- Character information sections
-- Turkish / English language option
-- Social media links
-- Pixel-art animation support
-- Mobile-friendly structure
+This website was created to present Dotto•Man in a clear, atmospheric, and accessible way.
+
+It brings together the main parts of the project: character introductions, visual materials, episode content, social media links, and future updates. Its visual identity follows the tone of Dotto•Man: dark, ink-inspired, slightly dramatic, and connected to the feeling of written and drawn works.
+
+The website is not only a portfolio page. It is also a small digital archive for the development of Dotto•Man and a central place where visitors can understand the world, tone, and creative direction of the project.
 
 ---
 
-## Technologies Used
+## Development Purpose
 
-- HTML
-- CSS
-- JavaScript
-- PHP
+The purpose of this website is to support Dotto•Man as an original creative project.
 
----
+It was developed to introduce the universe to viewers, readers, collaborators, and anyone interested in the project. At the same time, it reflects the process of building a personal animation universe from drawings, story ideas, character designs, and visual experiments.
 
-## Project Structure
-
-```txt
-dottoman/
-│
-├── index.php
-├── gallery.php
-├── nav.js
-├── style.css
-│
-├── images/
-│   ├── gallery/
-│   ├── logos/
-│   └── characters/
-│
-├── gifs/
-│
-└── README.md
-```
+As the project grows, the website is expected to grow with it. For that reason, this repository represents both the current state of the website and its ongoing development process.
 
 ---
 
-## Running Locally
+## Main Characters
 
-To run the website locally, use a PHP-supported local server.
+### Dotto / Nokta
 
-### PHP Built-in Server
+Dotto represents the concept of the period.
 
-```bash
-php -S localhost:8000
-```
+He has the ability to end, conclude, and finalize things by putting a point to them. He chooses to use this power against evil, but he is also cautious because ending something is not always simple. His power makes him strong, but also careful and distant.
 
-Then open:
+Dotto is knowledgeable, principled, and morally driven. He carries the weight of finality.
 
-```txt
-http://localhost:8000
-```
+### Quinna / Soru
 
-### XAMPP / Laragon
+Quinna represents the question mark.
 
-Place the project folder inside your local server directory and open it through localhost.
+She is connected to curiosity, doubt, investigation, and the need to understand. She questions what others accept too easily and searches for meaning behind events.
 
-Example:
+### Rex / Ünlem
 
-```txt
-http://localhost/dottoman
-```
+Rex represents the exclamation mark.
+
+He is energetic, intense, emotional, rebellious, and expressive. He carries the force of sudden emotion, reaction, excitement, anger, and declaration.
+
+### Silas Paus / Virgül
+
+Silas Paus represents the comma.
+
+He is connected to pause, separation, continuation, and unfinished thoughts. His presence suggests that not everything has to end immediately; some things continue, change direction, or remain suspended.
 
 ---
 
-## Gallery
+## Creative Direction
 
-The gallery section is handled through `gallery.php`.
+Dotto•Man is shaped by interests in animation, drawing, storytelling, character design, literature, Turkish language, comics, symbolism, and visual worldbuilding.
 
-Images can be added by editing the image array:
+The project aims to turn small marks on a page into characters with emotional, dramatic, and philosophical meaning. Rather than treating punctuation only as a grammar subject, Dotto•Man imagines punctuation as something alive: a force that affects how stories breathe, stop, continue, question, and shout.
 
-```php
-$images = [
-  ["src" => "images/gallery/1.png", "title" => "Episode 1"],
-  ["src" => "images/gallery/2.png", "title" => "Concept Art"],
-  ["src" => "images/gallery/3.png", "title" => "Behind the Ink"],
-];
-```
+---
+
+## Future of the Website
+
+The website will continue to develop alongside the Dotto•Man project.
+
+Future plans include expanding character sections, adding more gallery materials, improving the episode archive, presenting behind-the-scenes content, and making the website a stronger digital home for the project.
+
+As new animations, drawings, and story ideas are created, the website may become a more complete archive of the Dotto•Man universe. The long-term goal is to make it feel like a living part of the project: a place that grows, changes, and deepens as Dotto•Man itself develops.
+
+---
+
+## About the Creator
+
+**Alper Erdinç** is the creator of Dotto•Man.
+
+He is interested in animation, game development, visual storytelling, comics, character design, and creative worldbuilding. Dotto•Man is one of his personal projects, built through drawing, writing, editing, experimenting, and gradually expanding the universe around its characters.
+
+The project reflects his interest in combining language with visual storytelling and turning abstract ideas into characters, scenes, and emotional moments.
 
 ---
 
 ## Status
 
-This website is currently in development.
+Dotto•Man is an ongoing project.
 
-Planned improvements include:
-
-- More detailed character pages
-- Episode archive
-- Improved mobile optimization
-- Better gallery system
-- Project timeline section
-- Behind-the-scenes content
-- More animation and visual material
-
----
-
-## Creator
-
-Created by **Alper Erdinç**.
-
-Dotto•Man is an original animation, story, and character universe.
+The universe, characters, episodes, visual style, and website will continue to develop over time. New content, character details, gallery materials, and project updates may be added as the project grows.
 
 ---
 
 ## Copyright
 
-All characters, names, story concepts, images, animations, writings, and visual materials related to **Dotto•Man** belong to their creator unless stated otherwise.
+Dotto•Man, its characters, story concepts, names, drawings, animations, writings, and visual materials are original creative works by **Alper Erdinç**, unless stated otherwise.
 
-This repository is shared for website development and presentation purposes.
-
-Please do not use, copy, reproduce, modify, redistribute, or claim any original Dotto•Man characters, artworks, animations, writings, or story materials without permission.
+Please do not copy, reproduce, modify, redistribute, or claim any Dotto•Man-related material without permission.
 
 ---
 
-## Links
+## Official Website
 
-Website:
-
-```txt
 https://dottoman.com
-```
-
-Social media links:
-
-```txt
-Instagram:
-YouTube:
-LinkedIn:
-```
