@@ -1,317 +1,162 @@
-### Features
+# Dotto•Man Website
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+Official website for **Dotto•Man**, an original animation and storytelling project about living punctuation marks, ink beings, language, literature, and visual narrative.
 
-# Editor.md
+This website is designed as the main online home of the Dotto•Man universe. It includes project information, character descriptions, gallery content, episode links, social media links, and future updates.
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+---
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+## About Dotto•Man
 
+**Dotto•Man** is an original animation universe set in a world where punctuation marks exist as living conceptual beings.
 
-**Table of Contents**
+The project follows characters inspired by punctuation marks:
 
-[TOCM]
+- **Dotto / Nokta**
+- **Quinna / Soru**
+- **Rex / Ünlem**
+- **Silas Paus / Virgül**
 
-[TOC]
+Dotto•Man combines humor, drama, language, literature, animation, and an amateur creative spirit. It is both a fictional story world and a small tribute to punctuation, writing, storytelling, and Turkish literary culture.
 
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+---
 
-##Headers (Underline)
+## Website Features
 
-H1 Header (Underline)
-=============
+- Dark ink-inspired visual design
+- Responsive layout
+- Main top navigation
+- Secondary scroll-based navigation
+- Gallery carousel
+- Character information sections
+- Turkish / English language option
+- Social media links
+- Pixel-art animation support
+- Mobile-friendly structure
 
-H2 Header (Underline)
--------------
+---
 
-###Characters
-                
-----
+## Technologies Used
 
-~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
-*Italic*      _Italic_
-**Emphasis**  __Emphasis__
-***Emphasis Italic*** ___Emphasis Italic___
+- HTML
+- CSS
+- JavaScript
+- PHP
 
-Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
+---
 
-**Abbreviation(link HTML abbr tag)**
+## Project Structure
 
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
-
-###Blockquotes
-
-> Blockquotes
-
-Paragraphs and Line Breaks
-                    
-> "Blockquotes Blockquotes", [Link](http://localhost/)。
-
-###Links
-
-[Links](http://localhost/)
-
-[Links with title](http://localhost/ "link title")
-
-`<link>` : <https://github.com>
-
-[Reference link][id/name] 
-
-[id/name]: http://link-url/
-
-GFM a-tail link @pandao
-
-###Code Blocks (multi-language) & highlighting
-
-####Inline code
-
-`$ npm install marked`
-
-####Code Blocks (Indented style)
-
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    <?php
-        echo "Hello world!";
-    ?>
-    
-Code Blocks (Preformatted text):
-
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
-
-####Javascript　
-
-```javascript
-function test(){
-	console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
+```txt
+dottoman/
+│
+├── index.php
+├── gallery.php
+├── nav.js
+├── style.css
+│
+├── images/
+│   ├── gallery/
+│   ├── logos/
+│   └── characters/
+│
+├── gifs/
+│
+└── README.md
 ```
 
-####HTML code
+---
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
+## Running Locally
+
+To run the website locally, use a PHP-supported local server.
+
+### PHP Built-in Server
+
+```bash
+php -S localhost:8000
 ```
 
-###Images
+Then open:
 
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩 Xiamen
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
-
-###Lists
-
-####Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-     
-####Unordered list (*)
-
-* Item A
-* Item B
-* Item C
-
-####Unordered list (plus sign and nested)
-                
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
-
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
-                    
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
-
-####HTML entities
-
-&copy; &  &uml; &trade; &iexcl; &pound;
-&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
-
-X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
-
-18&ordm;C  &quot;  &apos;
-
-##Escaping for Special Characters
-
-\*literal asterisks\*
-
-##Markdown extras
-
-###GFM task list
-
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-
-###Emoji mixed :smiley:
-
-> Blockquotes :star:
-
-####GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
-
-- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
-- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
-- [x] [ ] :smiley: this is a complete item :smiley:;
-- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
-- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
-    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
-    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
-            
-###TeX(LaTeX)
-   
-$$E=mc^2$$
-
-Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-                
-###FlowChart
-
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
+```txt
+http://localhost:8000
 ```
 
-###Sequence Diagram
-                    
-```seq
-Andrew->China: Says Hello 
-Note right of China: China thinks\nabout it 
-China-->Andrew: How are you? 
-Andrew->>China: I am good thanks!
+### XAMPP / Laragon
+
+Place the project folder inside your local server directory and open it through localhost.
+
+Example:
+
+```txt
+http://localhost/dottoman
 ```
 
-###End
+---
+
+## Gallery
+
+The gallery section is handled through `gallery.php`.
+
+Images can be added by editing the image array:
+
+```php
+$images = [
+  ["src" => "images/gallery/1.png", "title" => "Episode 1"],
+  ["src" => "images/gallery/2.png", "title" => "Concept Art"],
+  ["src" => "images/gallery/3.png", "title" => "Behind the Ink"],
+];
+```
+
+---
+
+## Status
+
+This website is currently in development.
+
+Planned improvements include:
+
+- More detailed character pages
+- Episode archive
+- Improved mobile optimization
+- Better gallery system
+- Project timeline section
+- Behind-the-scenes content
+- More animation and visual material
+
+---
+
+## Creator
+
+Created by **Alper Erdinç**.
+
+Dotto•Man is an original animation, story, and character universe.
+
+---
+
+## Copyright
+
+All characters, names, story concepts, images, animations, writings, and visual materials related to **Dotto•Man** belong to their creator unless stated otherwise.
+
+This repository is shared for website development and presentation purposes.
+
+Please do not use, copy, reproduce, modify, redistribute, or claim any original Dotto•Man characters, artworks, animations, writings, or story materials without permission.
+
+---
+
+## Links
+
+Website:
+
+```txt
+https://dottoman.com
+```
+
+Social media links:
+
+```txt
+Instagram:
+YouTube:
+LinkedIn:
+```
